@@ -85,6 +85,18 @@ module.exports = {
         return this._executeSlackNotificationHook('didBuild');
       },
 
+      willPrepare: function(/* context */) {
+        return this._executeSlackNotificationHook('willPrepare');
+      },
+
+      prepare: function(/* context */) {
+        return this._executeSlackNotificationHook('prepare');
+      },
+
+      didPrepare: function(/* context */) {
+        return this._executeSlackNotificationHook('didPrepare');
+      },
+
       willUpload: function(/* context */) {
         return this._executeSlackNotificationHook('willUpload');
       },

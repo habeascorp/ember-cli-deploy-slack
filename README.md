@@ -45,6 +45,9 @@ For detailed information on what plugin hooks are and how they work, please refe
 - `willBuild`
 - `build`
 - `didBuild`
+- `willPrepare`
+- `prepare`
+- `didPrepare`
 - `willUpload`
 - `upload`
 - `didUpload`
